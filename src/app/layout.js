@@ -1,19 +1,20 @@
 import "@/styles/globals.css";
 
 export const metadata = {
-  title: "CuotaClara — Calculadora de Cuota de Autónomos 2026",
+  title:
+    "Calculadora Cuota Autónomos 2026 Gratis — Simulador 15 Tramos | CuotaClara",
   description:
-    "Calcula tu cuota de autónomos en España para 2026 en 2 clics. Gratis, actualizada con los 15 tramos oficiales de la Seguridad Social. Incluye MEI 0,9%. Sin registro.",
+    "Calculadora y simulador gratis de cuota de autónomos 2026. Calcula tu cuota en 2 clics con los 15 tramos oficiales de la Seguridad Social. Incluye MEI 0,9%, tarifa plana, autónomo societario. Sin registro.",
   keywords:
-    "cuota autónomos 2026, calculadora autónomos, tramos cotización autónomos, seguridad social autónomos, RETA 2026, cuota mínima autónomos, cuánto paga un autónomo, MEI 2026, base cotización autónomos, calculadora cuota autónomo gratis",
+    "calculadora cuota autónomos 2026, simulador cuota autónomos, cuota autónomos 2026, calcular cuota autónomo, tramos autónomos 2026, cuánto paga un autónomo 2026, cuánto se paga de autónomo, cuota mínima autónomos 2026, tabla cuotas autónomos 2026, tarifa plana autónomos 2026, MEI autónomos 2026, autónomo societario cuota 2026, base cotización autónomos 2026, RETA 2026, regularización cuotas autónomos, cuota cero autónomos 2026, seguridad social autónomos, tramos cotización autónomos, calculadora autónomos gratis, simulador cuota autónomo 2026",
   metadataBase: new URL("https://www.cuotaclara.es"),
   alternates: {
     canonical: "https://www.cuotaclara.es",
   },
   openGraph: {
-    title: "CuotaClara — Calculadora de Cuota de Autónomos 2026",
+    title: "Calculadora Cuota Autónomos 2026 Gratis — CuotaClara",
     description:
-      "Calcula tu cuota de autónomos en 2 clics. 15 tramos oficiales, datos de la Seguridad Social, gratis y sin registro.",
+      "Simulador gratis de cuota de autónomos 2026. 15 tramos oficiales de la Seguridad Social, MEI 0,9%, tarifa plana y societarios. Sin registro.",
     type: "website",
     locale: "es_ES",
     url: "https://www.cuotaclara.es",
@@ -21,9 +22,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CuotaClara — Calculadora de Cuota de Autónomos 2026",
+    title: "Calculadora Cuota Autónomos 2026 Gratis — CuotaClara",
     description:
-      "Calcula tu cuota de autónomos en 2 clics. 15 tramos oficiales, gratis.",
+      "Simulador gratis de cuota de autónomos 2026. 15 tramos oficiales, sin registro.",
   },
   robots: {
     index: true,
@@ -38,10 +39,10 @@ export const metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  name: "CuotaClara",
+  name: "CuotaClara — Calculadora de Cuota de Autónomos 2026",
   url: "https://www.cuotaclara.es",
   description:
-    "Calculadora gratuita de cuota de autónomos en España para 2026. Basada en los 15 tramos oficiales de la Seguridad Social.",
+    "Calculadora y simulador gratuito de cuota de autónomos en España para 2026. Basada en los 15 tramos oficiales de la Seguridad Social. Incluye MEI, tarifa plana y autónomo societario.",
   applicationCategory: "FinanceApplication",
   operatingSystem: "Web",
   offers: {
@@ -71,6 +72,14 @@ const faqJsonLd = {
     },
     {
       "@type": "Question",
+      name: "¿Cuánto paga un autónomo en 2026?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "En 2026, la cuota mínima va desde 200€/mes (rendimientos netos menores de 670€) hasta 590€/mes (rendimientos superiores a 6.000€). La cuota se calcula aplicando el 31,5% a la base de cotización elegida dentro de tu tramo. El sistema tiene 15 tramos basados en ingresos reales.",
+      },
+    },
+    {
+      "@type": "Question",
       name: "¿Puedo cambiar de tramo durante el año?",
       acceptedAnswer: {
         "@type": "Answer",
@@ -87,10 +96,10 @@ const faqJsonLd = {
     },
     {
       "@type": "Question",
-      name: "¿Qué es el MEI y cómo me afecta?",
+      name: "¿Qué es el MEI y cómo me afecta en 2026?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "El Mecanismo de Equidad Intergeneracional (MEI) es un recargo destinado a financiar las pensiones de la generación del Baby Boom. En 2026 es del 0,9% (subió un 0,1% respecto a 2025). Se aplica sobre tu base de cotización y lo asumes íntegramente tú como autónomo. Supone entre 6€ y 24€ más al año según tu tramo.",
+        text: "El Mecanismo de Equidad Intergeneracional (MEI) es un recargo destinado a financiar las pensiones. En 2026 es del 0,9% (subió un 0,1% respecto a 2025). Se aplica sobre tu base de cotización y lo asumes íntegramente tú como autónomo. Supone entre 6€ y 24€ más al año según tu tramo.",
       },
     },
     {
@@ -99,6 +108,14 @@ const faqJsonLd = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "Sí. Los nuevos autónomos pueden acceder a una cuota reducida de 80€/mes durante los primeros 12 meses. Se puede ampliar a 24 meses si tus rendimientos netos no superan el Salario Mínimo Interprofesional. Además, varias comunidades autónomas ofrecen la Cuota Cero que bonifica incluso esos 80€.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Cuál es la cuota mínima de autónomos en 2026?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "La cuota mínima absoluta en 2026 es de aproximadamente 205,88€/mes (incluyendo MEI), correspondiente al primer tramo de rendimientos netos inferiores a 670€ mensuales. Para autónomos con la tarifa plana, la cuota es de unos 86-88€/mes.",
       },
     },
     {

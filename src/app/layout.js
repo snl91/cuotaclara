@@ -136,6 +136,7 @@ export default function RootLayout({ children }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="google-site-verification" content="hxfzqO6snz41kzr9Ioi5ubSVRa25KcgRH01Pp9Cv1jc" />
         <link rel="canonical" href="https://www.cuotaclara.es" />
         <script
           type="application/ld+json"

@@ -1,21 +1,6 @@
 import Calculator from "@/components/Calculator";
 import FAQ from "@/components/FAQ";
 
-export const metadata = {
-  title: "CuotaClara — Calculadora de Cuota de Autónomos 2026",
-  description:
-    "Calcula tu cuota de autónomos en España para 2026. Gratis, actualizada con los 15 tramos oficiales de la Seguridad Social. Sin registro.",
-  keywords:
-    "cuota autónomos 2026, calculadora autónomos, tramos cotización, seguridad social, RETA, cuota mínima autónomos",
-  openGraph: {
-    title: "CuotaClara — Calculadora de Cuota de Autónomos 2026",
-    description:
-      "Calcula tu cuota de autónomos en 2 clics. 15 tramos, datos oficiales, gratis.",
-    type: "website",
-    locale: "es_ES",
-  },
-};
-
 export default function Home() {
   return (
     <>
@@ -51,12 +36,12 @@ export default function Home() {
             Actualizado con datos oficiales 2026
           </div>
           <h1 className="hero__title">
-            Descubre tu cuota de autónomo
+            Calculadora de cuota de autónomos 2026
             <br />
-            <span className="hero__title-accent">en 2 clics</span>
+            <span className="hero__title-accent">gratis y en 2 clics</span>
           </h1>
           <p className="hero__subtitle">
-            Calculadora gratuita con los 15 tramos oficiales de la Seguridad Social.
+            Simulador gratuito con los 15 tramos oficiales de la Seguridad Social.
             Sin registro, sin letra pequeña. Incluye el nuevo MEI 2026.
           </p>
           <div className="hero__cta-group">
@@ -98,7 +83,7 @@ export default function Home() {
         <div className="container">
           <div className="calculator-section__header">
             <h2 className="calculator-section__title">
-              Calculadora de cuota de autónomos 2026
+              Simulador de cuota de autónomos 2026
             </h2>
             <p className="calculator-section__subtitle">
               Introduce tus ingresos y gastos anuales previstos. El cálculo es instantáneo.
@@ -169,7 +154,7 @@ export default function Home() {
               <ul className="pricing-card__features">
                 <li>Calculadora completa 15 tramos</li>
                 <li>Datos oficiales actualizados</li>
-                <li>Comparativa 2025 vs 2026</li>
+                <li>Tarifa plana y Cuota Cero</li>
                 <li>Sin registro ni cuenta</li>
               </ul>
               <a href="#calculadora" className="btn btn--secondary pricing-card__btn">

@@ -8,6 +8,14 @@ const faqs = [
     a: "Tu cuota se basa en tus rendimientos netos reales: ingresos menos gastos deducibles, menos la deducción por gastos genéricos (7% para persona física, 3% para societarios). El resultado mensual determina tu tramo dentro de los 15 establecidos por la Seguridad Social. En 2026, las cuotas están congeladas respecto a 2025, con el único cambio del MEI que sube al 0,9%.",
   },
   {
+    q: "¿Cuánto paga un autónomo en 2026?",
+    a: "En 2026, la cuota mínima va desde 200€/mes (rendimientos netos menores de 670€) hasta 590€/mes (rendimientos superiores a 6.000€). La cuota se calcula aplicando el 31,5% a la base de cotización elegida dentro de tu tramo. El sistema tiene 15 tramos basados en ingresos reales.",
+  },
+  {
+    q: "¿Cuál es la cuota mínima de autónomos en 2026?",
+    a: "La cuota mínima absoluta en 2026 es de aproximadamente 205,88€/mes (incluyendo MEI), correspondiente al primer tramo de rendimientos netos inferiores a 670€ mensuales. Para autónomos con la tarifa plana, la cuota es de unos 86-88€/mes.",
+  },
+  {
     q: "¿Puedo cambiar de tramo durante el año?",
     a: "Sí, puedes solicitar hasta 6 cambios de base de cotización al año, con efectos bimestrales. Esto te permite ajustar tu cuota si tus ingresos cambian. Al final del ejercicio, la Seguridad Social regularizará tus cuotas según los rendimientos reales declarados en el IRPF.",
   },
